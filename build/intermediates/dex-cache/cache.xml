@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="9671d7ec678c3535768238cbcd6cabe46a7630f6">
+        sha1="b37c8b81dcee7345b911df99966547e1a7a6d92f">
         <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_475ccaaa0c40f4b114ee0829029970e05f9757c6/classes.dex" />
     </item>
     <item
