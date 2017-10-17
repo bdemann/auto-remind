@@ -1,3 +1,153 @@
 <resources>
     <string name="app_name">AutoRemind</string>
+    <string name="title_activity_task_instructions">Oil Change</string>
+    <string name="large_text">
+        "Oil Change is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="oil_instuctions">
+        "Changing the oil in your car is something that any DIYer can do. Although changing the oil might appear rather “duh,” there are still a lot of folks doing it wrong, making it an ugly chore or overpaying for oil changes they could do themselves. Plus, it’s the single most important task you can do to make your engine last. We’ll teach you how to change oil.
+
+Changing your own oil isn’t brain surgery—you probably did it yourself years ago. But with oil change shops charging more and more, it’s time to get back under the car and start saving big bucks. Plus, you won’t be pressured into buying overpriced add-ons (like wiper blades and PCV valves) every time you go in for a change. We’ll show you how to change oil fast and painlessly. And we’ll show you some tips you may not know about.
+        Place all your tools on a tray or in a box so everything you need is in one place. That means a box-end wrench for the drain plug, a rubber mallet (Photo 1), a filter wrench, a drain pan and the new filter. Before you slide it all under the car, open a new oil bottle and smear clean oil on the new filter’s gasket. Then you’re ready to start the job.
+
+Remove the drain plug and get the old oil flowing. Then remove the oil filter and install the new one. Once the old oil is down to a trickle, install a new gasket on the plug (if required) and tighten it by tapping the box-end wrench with the rubber mallet. Wipe the drips with a rag and you’re done under the car.
+
+
+    </string>
+    <string name="air_filter_instructions">
+        "1. Buy your air filter. Most air filters are pretty cheap. Between $10-$13. Swing by an auto parts store after work or pick an air filter up while you’re grocery shopping at a Super Walmart. Figuring out what air filter to get for your car is easy. First, you can check your owner’s manual, but let’s face it, you’ll probably forget to do that. Lucky for you, places that sell air filters have this tattered  phone book-looking thing hanging off a shelf. It’s literally the phone book for auto parts. You just look up the year, make, and model of your car, and it tells you what parts you need for it. If your auto parts store is really fancy, they’ll have a crappy Speak  Spell-like computer that you can use. But it’s usually busted, so you’ll probably just end up using the book.
+
+2. Open your hood and locate the air filter box. It’s the black plastic box sitting on top of or to the side of your engine. The filter box usually has a giant hose sticking out of its side.
+        3. Open the air filter box and remove the dirty air filter. Opening an air filter box is a cinch. Just unclasp the big metal clips that hold the top down and open the box. Remove the dirty filter.
+        4. Check the old air filter. Give your old filter a look over to see if it’s past its prime. Look inside the folds. See a lot of dirt and gunk? Time to replace it.
+
+5. Put in the new air filter. Place your filter in the filter box. Make sure it sits snuggly in the box. Close the top of the box and snap the clips.
+
+That’s it. Your engine will no longer be gasping for air like a guppy that jumped its bowl."
+    </string>
+    <string name="battery_replacement_instuctions">
+    "1
+Locate the battery. The battery should be located in an accessible part on either side of the car's frame. The battery is a rectangular box with two cables attached to it. Some European cars (some BMW's) have the battery under the matting in the trunk, some vehicles can have the battery located under the rear seat, or some are located inside the fender of the wheel well (some Chrysler's). The latter is often very difficult to remove.
+        2
+Identify battery terminals. Locate the positive and the negative terminals of the old car battery. The positive terminal will have a plus sign (and is often red) and the negative terminal will have a minus sign (and is often black).
+        3
+Disconnect the negative terminal. Loosen the negative cable clamp with a wrench (Usually 8mm or 10mm) and slide it off of the terminal. If the cables are unmarked, label them so that they don't get mixed up (otherwise you may ruin your car's electric system later on). It is also important that you disconnect the negative terminal socket before the positive terminal socket. Otherwise, you may short circuit the positive terminal to a grounded part of the car.
+       4
+Disconnect the positive terminal.
+       5
+Remove the car battery. Unfasten the battery holder and remove any screws, clamps or bars holding the battery in place. Carefully lift the battery out of the car. Remember that a battery can weigh 30 to 60 pounds, or 13.5 to 27 kilos, so if you have any back problems, get a helping hand.
+        Put in the freaking Battery"
+    </string>
+    <string name="coolant_flush_instuctions">
+        "Park the vehicle in a safe place, away from children and small animals.
+Make sure that the engine is cold, the ignition is off, and the parking brake is on.
+Place a bucket under the drain valve at the bottom of the radiator.
+The bucket should be able to hold at least two gallons of liquid.
+Open the drain valve and allow the liquid to drain into the bucket.
+Don’t allow the liquid to drain onto the ground or into a storm drain or sewer.
+Close the drain valve and pour the used liquid into containers with tight-fitting lids.
+Label them clearly as “antifreeze” or “coolant,” and place them away from kids and pets until you can dispose of them safely.
+A funnel and some old gallon water jugs do the job as long as you label them prominently and pour carefully to avoid spilling the liquid on the ground.
+Open the radiator pressure cap and fill the radiator with water.
+Run the engine with the heater control on High for about ten minutes.
+Keep an eye on the temperature gauge to make sure that the engine doesn’t overheat. If your vehicle has an engine temperature warning light instead of a gauge, shut off the engine as soon as it lights up.
+Shut off the engine and allow it to cool down.
+When the radiator is cool enough to touch, drain the water out of the system into the bucket again, and transfer it from there into a closed container for disposal. Label the containers toxic water to prevent accidents.
+Close the drain plug and refill the system with water and coolant.
+Consult your owner’s manual, the back of the coolant jug, or the charts that coolant manufacturers supply to find out the number of quarts that your cooling system holds. Many coolants are now pre-diluted with water, but if you’re buying straight coolant, divide that number by two and buy that amount of coolant. Adding an equal amount of water to straight coolant gives you a 50/50 water/coolant mixture, which is fine for everything but extremely cold weather.
+The liquid should reach the “MAX” line on the coolant recovery reservoir or cover the fins in the radiator. If it doesn’t, continue to add equal parts water and coolant until it does.
+Disperse the water and coolant evenly throughout the system.
+Replace the pressure cap and run the engine with the heater on High until the temperature gauge reads in the normal range.
+Shut off the engine and clean.
+Place contaminated rags in sealable plastic bags and put them into the garbage, and store the unused coolant safely away from kids and pets.
+After you’ve driven your car for a few days, check the liquid level in the recovery system reservoir again, adding equal parts water and coolant to the reservoir if the level is low.
+If it’s low again in a few more days, have the system checked at a service facility."
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>

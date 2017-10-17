@@ -2,11 +2,13 @@ package com.mikeporet.autoremind;
 
 import android.graphics.drawable.Drawable;
 
+import java.io.Serializable;
+
 /**
  * Created by mikeporet on 10/11/17.
  */
 
-class Task {
+class Task implements Serializable {
 
     private String title;
     private int image;
