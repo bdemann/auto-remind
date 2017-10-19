@@ -1,12 +1,14 @@
 package com.mikeporet.autoremind;
 
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.view.menu.MenuView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
@@ -15,6 +17,8 @@ import org.w3c.dom.Text;
 
 import android.net.Uri;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class TaskInstructionsActivity extends AppCompatActivity {
 
@@ -24,12 +28,13 @@ public class TaskInstructionsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task_instructions);
-        Task current_task =(Task) getIntent().getSerializableExtra("Task");
+        final Task current_task =(Task) getIntent().getSerializableExtra("Task");
         setTitle(current_task.getTitle());
 
         taskBodyText = (TextView) findViewById(R.id.task_instructions_body);
-        ImageView instruction_image = (ImageView) findViewById(R.id.instructionpic);
-        instruction_image.setImageDrawable(getDrawable(current_task.getImage()));
+        //ImageView instruction_image = (ImageView) findViewById(R.id.instructionpic);
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.instruction_bar);
+        appBarLayout.setBackground(getDrawable(current_task.getImage()));
 
         switch (current_task.getTitle()) {
             case "Oil Change":
@@ -58,6 +63,10 @@ public class TaskInstructionsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Done!", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+//                Car_Home home = (Car_Home) get;
+//                List<Task> tasklist = home.getTaskList();
+//                tasklist.remove(current_task);
+                finish();
             }
         });
 

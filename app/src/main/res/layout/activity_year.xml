@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mikeporet.autoremind.YearActivity">
+
+    <Spinner
+        android:id="@+id/yearspinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="10dp" />
+
+    <Button
+        android:id="@+id/carSelectFinishButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="100dp"
+        android:paddingHorizontal="10dp"
+        android:text="Finish"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorAccentText"
+        android:layout_marginBottom="66dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="finishClick"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

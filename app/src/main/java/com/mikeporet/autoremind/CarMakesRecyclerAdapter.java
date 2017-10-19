@@ -35,7 +35,7 @@ public class CarMakesRecyclerAdapter extends RecyclerView.Adapter<CarMakesRecycl
             Log.d("testmebabyonemoretime", "poop scooping buggy");
 
 
-            Intent intent = new Intent(v.getContext(), Car_Home.class);
+            Intent intent = new Intent(v.getContext(), ModelActivity.class);
             intent.putExtra("Make", makeList.get(getAdapterPosition()));
             itemView.getContext().startActivity(intent);
         }

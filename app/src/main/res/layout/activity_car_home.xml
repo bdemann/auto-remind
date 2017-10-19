@@ -23,7 +23,7 @@
 
         <TextView
             android:id="@+id/make_display"
-            android:layout_width="174dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Make"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline" />

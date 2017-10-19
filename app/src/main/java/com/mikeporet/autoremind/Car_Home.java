@@ -14,6 +14,7 @@ public class Car_Home extends AppCompatActivity {
 
     RecyclerView recyclerView;
     TextView make_title;
+    private List<Task> taskList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +22,14 @@ public class Car_Home extends AppCompatActivity {
         setContentView(R.layout.activity_car_home);
 
         String make = getIntent().getStringExtra("Make");
+        String model = getIntent().getStringExtra("Model");
+        int year = Integer.parseInt(getIntent().getStringExtra("Year"));
         make_title = (TextView) findViewById(R.id.make_display);
-        make_title.setText(make);
+        String name = (year == 0 ? "": year + " ") + make + " " + model;
+        make_title.setText(name);
 
         //Set Dummy Data
-        List<Task> taskList = new ArrayList<>();
+        taskList = new ArrayList<>();
         taskList.add(new Task("Oil Change", R.drawable.oilchange, 0, '0', (short)0, null, null, ""));
         taskList.add(new Task("Air Filter", R.drawable.airfilter, 0, '0', (short)0, null, null, ""));
         taskList.add(new Task("Battery Replacement", R.drawable.batteryreplacement, 0, '0', (short)0, null, null, ""));
@@ -35,5 +39,14 @@ public class Car_Home extends AppCompatActivity {
         CarTasksRecyclerAdapter adapter = new CarTasksRecyclerAdapter(taskList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    public void setTaskList(List<Task> taskList) {
+        this.taskList = taskList;
+    }
+
+    public List<Task> getTaskList() {
+
+        return taskList;
     }
 }

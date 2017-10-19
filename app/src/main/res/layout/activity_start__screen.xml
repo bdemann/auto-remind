@@ -20,6 +20,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="101dp"
+        android:textColor="@color/colorAccentText"
         android:width="250dp"
         android:height="50dp"
         android:background="@color/colorAccent"

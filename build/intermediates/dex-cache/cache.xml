@@ -3,156 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/a443e83659fb9553be6fa4dc8686d961edde8c07/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_ca37aaaf719fca709ccf592d654678e9894f1974.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/bcc0de9372ad05c7ccdd02ec33914fd7ed50b564/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_3835b9efd50cae7e3376a130ea31b36f0764de9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/92660f9ce36e1a0383a173f5118823bc3df13793/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_2c725549e220d335c09eef2cfa5da7b204d0fad9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/53a23c5ac11d351cc2c57c948a03ba4dfab11330/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_c03eef1854786af804266be60dc6eb0534c732f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/77b92a9f936d3add618a1593efd144b8a7ae11fd/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_8ea99f3584c3d96f129201ffdfafd56c46b1def7.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e053daf360bcf3009871e90b1bd14fdc42dd5faf">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_475ccaaa0c40f4b114ee0829029970e05f9757c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/f8848428a14b9101e68545dd92c17b764aa1ddc5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_f66421ebbcc60467db5fa27c203c072c1423ab3d.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd18fa028400e4a8798179364ce2e888d0a3a8ce/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_2255410448bdca17d640c2e93170f5a76638adc9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/1db5f1f42c797f5972f5099cc1c3062337487f75/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_3c921b80fc4efa9ce94e54c34141665177d6ee95.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/654b221d1e5968231974146e12f52319aa139460/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_7ff18e0348058c38d8ac602ee2c547fb6ca55a24.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_a40aae6cacdb684e342a579a682194b9426ab83b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/00cb11008c527e06d339762829536588e3ad9ede/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_29be8db48ecae97d494d9581f26fc68fd366b6b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/dcf4c0e83ea178f67820dbbc3b49ba613c7635d5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_d4ec10927d3c425b06292dfec80a4fe02a2d8255.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/4db74b3b578b7367fb05a9c9e510152d009ab04d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_2baed3fed04af840d029eeff3e73f749ec9df488.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/034dc340edb345595122fbc62fa73e6584a7870e/output/jars/classes.jar"
+        jar="C:\Users\Ben\.android\build-cache\c7872d008f18e2a578172bc20359b945cb13cf77\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_ce3e303209ea1264b2efa4069ba7f2c944fa40a0.jar" />
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_87ba0877234074be08b6d0acf2fb94d3a8e60e08.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mikeporet/.android/build-cache/510f93d9165ef7a575e2f3095b2e22a211df543e/output/jars/classes.jar"
+        jar="C:\Users\Ben\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_55154a69415ad2f5b2888e1d8ce1b45a5fce2585.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_817641e7899427535d603e59f18e6b6404693ee7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\b7aba570dd346fe6805135fbf835be889951b4e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_00a61d24a3d96408ebb807cada6fcff5bfa6ff20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\ff13bb06464dc7e5e750994db829fdcc774c6ba3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_1492017714f11fd1c1220be10396f87dd4b5ed6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\1577c2b483a1f91c899df44940a1f6a12a56ab1f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_a8b2785a4453cf6594244ec3c24733182fdb1583.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\45dbe879f7d11210aabbca3897c4bbcd90cbcb8e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_e4caaa346f039779dd24dc167292e778fc7ffda5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\931214914fdf1a51580c27278fb4d26e0d2dc272\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/mikeporet/AndroidStudioProjects/AutoRemind/app/build/intermediates/pre-dexed/debug/classes_4e16f611a3125894bbd5fca7875fac5a866732c7.jar" />
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_e1ed11a2a12a7a0c99821e37ae2a216a6282d39a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\7fb13d808aa1f3520d3ad9bf4d0f77876f607343\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_33f5c745c3900b11a36468c3d20f54987191716c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\ac9cc3d0eab2c28ff9b63ac4ce6e4754ecfec1a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_e9ca95372ff0ac8c3f91ca3d3a33ed03a7fb1443.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\c232a61839058165cbffda9df5791070dbcdb3bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_db317c0ee6b22c5a5648071b4923c0a463253a4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\665959b34fc43625a63a26e0d136c60fdea6caf7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_fe012eae036808b5ceceb7ed417558f51a193171.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\bbbd5180031a100940de6570018c98a22cd65b71\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_2a0dcdf88810c09ffa4084bead9b16510a4aab4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\8052f80b3f47ea37bfbe110d5a10c5c4ab4780cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_c12e37df52bd7c4b41b6ad45df723878ea93e8b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ben\.android\build-cache\a8a3c7d1405b3d25fb3e463be96dd7c38485ccf2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_55668737f1cda8087854278b6b77156b95b5d3cc.jar" />
     </item>
 
 </items>

@@ -21,7 +21,9 @@
             android:name=".TaskInstructionsActivity"
             android:label="@string/title_activity_task_instructions"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MakesActivity"></activity>
+        <activity android:name=".MakesActivity" />
+        <activity android:name=".ModelActivity" />
+        <activity android:name=".YearActivity"></activity>
     </application>
 
 </manifest>
