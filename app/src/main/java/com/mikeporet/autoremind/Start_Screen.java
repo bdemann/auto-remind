@@ -19,7 +19,7 @@ public class Start_Screen extends AppCompatActivity {
     public void start_click(View view){
         //Toast toast = Toast.makeText(getApplicationContext(),"Don't push my buttons", Toast.LENGTH_LONG);
         //toast.show();
-        Intent intent = new Intent(this, Car_Home.class);
+        Intent intent = new Intent(this, MakesActivity.class);
         startActivity(intent);
         return;
     }

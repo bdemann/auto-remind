@@ -14,6 +14,7 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -45,10 +46,11 @@ public class CarTasksRecyclerAdapter extends RecyclerView.Adapter<CarTasksRecycl
             Log.d("testmebabyonemoretime", "poop scooping buggy");
 
             List<Task> taskList = new ArrayList<>();
-            taskList.add(new Task("Oil Change", R.drawable.oilchange));
-            taskList.add(new Task("Air Filter", R.drawable.airfilter));
-            taskList.add(new Task("Battery Replacement", R.drawable.batteryreplacement));
-            taskList.add(new Task("Coolant Flush", R.drawable.coolantflush));
+            //String title, int image, int interval, char difficulty, char num_people, ArrayList<String> steps, ArrayList<Supply> supplies, String video_url
+            taskList.add(new Task("Oil Change", R.drawable.oilchange, 0, '0', (short)0, null, null, ""));
+            taskList.add(new Task("Air Filter", R.drawable.airfilter, 0, '0', (short)0, null, null, ""));
+            taskList.add(new Task("Battery Replacement", R.drawable.batteryreplacement, 0, '0', (short)0, null, null, ""));
+            taskList.add(new Task("Coolant Flush", R.drawable.coolantflush, 0, '0', (short)0, null, null, ""));
 
             Task current_task = taskList.get(this.getAdapterPosition());
             String cTaskTitle = current_task.getTitle();
@@ -73,15 +75,6 @@ public class CarTasksRecyclerAdapter extends RecyclerView.Adapter<CarTasksRecycl
 
     }
 
-//    @Override
-//    public ViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
-//
-//        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.car_task_view, parent, false);
-//
-//        Object poop = new Object();
-//
-//        return new ViewHolder(v);
-//    }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
