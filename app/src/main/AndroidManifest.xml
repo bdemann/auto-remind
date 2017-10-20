@@ -23,7 +23,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MakesActivity" />
         <activity android:name=".ModelActivity" />
-        <activity android:name=".YearActivity"></activity>
+        <activity android:name=".YearActivity" />
+        <activity
+            android:name=".CarHomeScrollingActivity"
+            android:label="@string/title_activity_car_home_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

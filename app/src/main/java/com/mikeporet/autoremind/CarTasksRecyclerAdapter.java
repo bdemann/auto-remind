@@ -35,7 +35,7 @@ public class CarTasksRecyclerAdapter extends RecyclerView.Adapter<CarTasksRecycl
         public ViewHolder(final View itemView) {
             super(itemView);
             taskTitle = (TextView) itemView.findViewById(R.id.task_title);
-            taskImage = (ImageView) itemView.findViewById(R.id.task_image);
+            taskImage = (ImageView) itemView.findViewById(R.id.image_view);
             taskInstructions = (TextView) itemView.findViewById(R.id.task_instructions);
             taskDone = (TextView) itemView.findViewById(R.id.task_done);
             taskInstructions.setOnClickListener(this);

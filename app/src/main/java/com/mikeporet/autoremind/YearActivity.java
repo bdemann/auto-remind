@@ -34,10 +34,14 @@ public class YearActivity extends AppCompatActivity {
     public void finishClick(View v) {
         String make = getIntent().getStringExtra("Make");
         String model = getIntent().getStringExtra("Model");
-        Intent intent = new Intent(this, Car_Home.class);
-        intent.putExtra("Make", make);
-        intent.putExtra("Model", model);
-        intent.putExtra("Year", year.getSelectedItem().toString());
+        int carImage = getCarImage(make, model, year);
+        Car car = new Car(make, model, Integer.parseInt(year.getSelectedItem().toString()), carImage);
+        Intent intent = new Intent(this, CarHomeScrollingActivity.class);
+        intent.putExtra("Car", car);
         startActivity(intent);
+    }
+
+    private int getCarImage(String make, String model, Spinner year) {
+        return R.drawable.jeep;
     }
 }

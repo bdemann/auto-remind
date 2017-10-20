@@ -56,6 +56,15 @@
         <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_a8b2785a4453cf6594244ec3c24733182fdb1583.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a587f33beb2f8cee4d2dccd43c760936eaeb59cf">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_51e4b39840e681df00f117c10f280e1d62842df3\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Ben\.android\build-cache\45dbe879f7d11210aabbca3897c4bbcd90cbcb8e\output\jars\classes.jar"
         jumboMode="false"
@@ -63,6 +72,15 @@
         revision="26.0.2"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\pre-dexed\debug\classes_e4caaa346f039779dd24dc167292e778fc7ffda5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\CS Projects\cs-301r\android\AutoRemind\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_36a1249b707d6c18f23bab564d9d59d814de23ff\classes.dex" />
     </item>
     <item
         is-multidex="false"

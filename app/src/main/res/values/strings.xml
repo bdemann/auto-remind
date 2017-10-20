@@ -150,4 +150,5 @@ After you’ve driven your car for a few days, check the liquid level in the rec
 If it’s low again in a few more days, have the system checked at a service facility."
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_car_home_scrolling">CarHomeScrollingActivity</string>
 </resources>

@@ -26,7 +26,8 @@ public class Car_Home extends AppCompatActivity {
         int year = Integer.parseInt(getIntent().getStringExtra("Year"));
         make_title = (TextView) findViewById(R.id.make_display);
         String name = (year == 0 ? "": year + " ") + make + " " + model;
-        make_title.setText(name);
+//        make_title.setText(name);
+        setTitle(name);
 
         //Set Dummy Data
         taskList = new ArrayList<>();
